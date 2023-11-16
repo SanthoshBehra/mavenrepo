@@ -27,6 +27,8 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>3.0.2</version>
+        <username>admin</username>
+        <password>1234</password>
     </plugin>
     </plugins>
   </build>
