@@ -17,17 +17,19 @@
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
-        <version>2.0</version>
+        <version>2.0</version> 
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
       <plugin>
-			  <groupId>org.codehaus.mojo</groupId> 
-			  <artifactId>sonar-maven-plugin</artifactId> 
-			  <version>2.2</version> 
-		  </plugin>
+	<groupId>org.codehaus.mojo</groupId> 
+	<artifactId>sonar-maven-plugin</artifactId> 
+	<version>2.2</version> 
+	<username>admin</username>
+        <password>1234</password>     
+      </plugin>
     </plugins>
   </build>
    <distributionManagement>
